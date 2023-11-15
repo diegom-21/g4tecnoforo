@@ -32,7 +32,7 @@
 
     <section class="container mt-4">
         <h2 style="font-size: 40px; font-weight: bold;">¿Cómo instalar Python en Windows?</h2>
-        <p>Pregunta realizada por: <a href="#" style="font-weight: bold;">Oliver</a></p>
+        <p>Pregunta realizada por: <a id="open" href="#" data-bs-toggle="modal" data-bs-target="#oliverModal" style="font-weight: bold;" >Oliver</a> <img src="img/img2.jpg" style="width: 40px; height: 40px;"> </p>
         <p style="font-size: 18px;">Necesito ayuda para instalar Python en mi computadora con Windows. ¿Alguien puede darme instrucciones?</p>
         
         <h3 class="mt-4" style="font-size: 25px; font-weight: bold;">Respuestas:</h3>
@@ -47,11 +47,56 @@
                     <li>Una vez completada la instalación, puedes abrir una ventana de comandos y verificar la versión de Python con el comando "python --version".</li>
                 </ol>
                 <p style="font-size: 18px;">¡Espero que esto te ayude a instalar Python en tu computadora con Windows!</p>
-                <p class="card-subtitle" style="font-size: 18px;">Respuesta de: <a href="#" style="font-weight: bold;">Jorge</a></p>
+                <p class="card-subtitle" style="font-size: 18px;">Respuesta de: <a id="openJorge" href="#" data-bs-toggle="modal" data-bs-target="#jorgeModal">Jorge</a> <img src="img/img1.jpg" style="width: 40px; height: 40px;"> </p>
             </div>
         </div>
         
     </section>
+
+
+
+    <!-- Modal de Oliver-->
+    <div class="modal fade" id="oliverModal" tabindex="-1" aria-labelledby="oliverModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-8" id="oliverModalLabel" >Usuario Oliver</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <img src="img/img2.jpg" class="mx-auto d-block" style="width: 100px; height: 100px;">
+            <div class="modal-body">
+                <p class="card-text">Número de Preguntas: 2</p>
+                <p class="card-text">Número de Respuestas: 0</p>
+                <p class="card-text">Rango: Junior</p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <!-- Modal de Jorge -->
+    <div class="modal fade" id="jorgeModal" tabindex="-1" aria-labelledby="jorgeModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-8">Usuario Jorge</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <img src="img/img1.jpg" class="mx-auto d-block" style="width: 100px; height: 100px;">
+                <div class="modal-body">
+                    <p class="card-text">Número de Preguntas: 1</p>
+                    <p class="card-text">Número de Respuestas: 0</p>
+                    <p class="card-text">Rango: Junior</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="text-center mt-4 fixed-bottom" style="background-color: black; height: 60px;">
         <p style="color: white;">&copy; 2023 Tecnoforo Grupo 4</p>

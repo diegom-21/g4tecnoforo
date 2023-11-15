@@ -32,23 +32,90 @@
 
     <section class="container mt-4">
         <h2 style="font-size: 40px; font-weight: bold;">¿Cuál es el lenguaje de programación más popular en 2023?</h2>
-        <p>Pregunta realizada por: <a href="#" style="font-weight: bold;">Jorge</a></p>
+        <p>Pregunta realizada por: <a id="openJorge" href="#" style="font-weight: bold;" data-bs-toggle="modal" data-bs-target="#jorgeModal">Jorge</a> <img src="img/img1.jpg" style="width: 40px; height: 40px;"> </p>
         <p style="font-size: 18px;">Estoy interesado en aprender un nuevo lenguaje de programación y me gustaría saber cuál es el más popular actualmente.</p>
         <h3 class="mt-4" style="font-size: 25px; font-weight: bold;">Respuestas:</h3>
         <div class="respuesta card">
             <div class="card-body">
                 <p style="font-size: 18px;">El lenguaje de programación más popular en 2023 es Python, seguido de cerca por JavaScript.</p>
-                <p class="card-subtitle" style="font-size: 18px;">Respuesta de: <a href="#" style="font-weight: bold;">Pedro</a></p>
+                <p class="card-subtitle" style="font-size: 18px;">Respuesta de: <a id="openPedro" href="#" style="font-weight: bold;" data-bs-toggle="modal" data-bs-target="#pedroModal">Pedro</a> <img src="img/img3.jpg" style="width: 40px; height: 40px;"></p>
             </div>
         </div>
         <div class="respuesta card mt-3">
             <div class="card-body">
                 <p style="font-size: 18px;">Python es una excelente elección. También considera aprender Rust si estás interesado en la programación de sistemas.</p>
-                <p class="card-subtitle" style="font-size: 18px;">Respuesta de: <a href="#" style="font-weight: bold;">Marcelo</a></p>
+                <p class="card-subtitle" style="font-size: 18px;">Respuesta de: <a id="openMarcelo" href="#" style="font-weight: bold;" data-bs-toggle="modal" data-bs-target="#marceloModal">Marcelo</a> <img src="img/img7.jpg" style="width: 40px; height: 40px;"></p>
             </div>
         </div>
-
     </section>
+
+
+    <!-- Modal de Jorge -->
+    <div class="modal fade" id="jorgeModal" tabindex="-1" aria-labelledby="jorgeModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-8">Usuario Jorge</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <img src="img/img1.jpg" class="mx-auto d-block" style="width: 100px; height: 100px;">
+                <div class="modal-body">
+                    <p class="card-text">Número de Preguntas: 1</p>
+                    <p class="card-text">Número de Respuestas: 0</p>
+                    <p class="card-text">Rango: Junior</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Pedro -->
+    <div class="modal fade" id="pedroModal" tabindex="-1" aria-labelledby="pedroModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-8">Usuario Pedro</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <img src="img/img3.jpg" class="mx-auto d-block" style="width: 100px; height: 100px;">
+                <div class="modal-body">
+                    <p class="card-text">Número de Preguntas: 0</p>
+                    <p class="card-text">Número de Respuestas: 1</p>
+                    <p class="card-text">Rango: Semi Senior</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Marcelo -->
+    <div class="modal fade" id="marceloModal" tabindex="-1" aria-labelledby="marceloModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-8">Usuario Marcelo</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <img src="img/img7.jpg" class="mx-auto d-block" style="width: 100px; height: 100px;">
+                <div class="modal-body">
+                    <p class="card-text">Número de Preguntas: 0</p>
+                    <p class="card-text">Número de Respuestas: 1</p>
+                    <p class="card-text">Rango: Semi Senior</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    
 
     <footer class="text-center mt-4 fixed-bottom" style="background-color: black; height: 60px;">
         <p style="color: white;">&copy; 2023 Tecnoforo Grupo 4</p>

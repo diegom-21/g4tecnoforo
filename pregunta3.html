@@ -32,7 +32,7 @@
 
     <section class="container mt-4">
         <h2 style="font-size: 40px; font-weight: bold;">¿Qué es un String?</h2>
-        <p>Pregunta realizada por: <a href="#" style="font-weight: bold;">Oliver</a></p>
+        <p>Pregunta realizada por: <a id="open" href="#" data-bs-toggle="modal" data-bs-target="#oliverModal" style="font-weight: bold;">Oliver</a> <img src="img/img2.jpg" style="width: 40px; height: 40px;"></p>
         <p style="font-size: 18px;">Estoy intentando escribir un texto en mi aplicación de Python; sin embargo, me aparece un error relacionado con strings. ¿Alguien puede ayudarme?</p>
 
         <h3 class="mt-4" style="font-size: 25px; font-weight: bold;">Respuestas:</h3>
@@ -41,10 +41,62 @@
                 <p style="font-size: 18px; font-weight: bold;">Un "String" en Python es una secuencia de caracteres, generalmente utilizada para representar texto. Puede ser una palabra, una frase o cualquier conjunto de caracteres. Para resolver tu problema, asegúrate de que estás utilizando comillas (simples o dobles) alrededor de tu texto, como en:</p>
                 <code>mi_string = 'Hola, Mundo!'</code>
                 <p style="font-size: 18px;">Si aún tienes problemas, proporciona más detalles sobre el error que estás viendo.</p>
-                <p style="font-size: 18px;">Respuesta de: <a href="#" style="font-weight: bold;">Jorge</a></p>
+                <p style="font-size: 18px;">Respuesta de: <a id="openPedro" href="#" style="font-weight: bold;" data-bs-toggle="modal" data-bs-target="#pedroModal">Jorge</a> <img src="img/img1.jpg" style="width: 40px; height: 40px;"></p>
             </div>
         </div>
     </section>
+
+
+    <!-- Modal de Oliver-->
+    <div class="modal fade" id="oliverModal" tabindex="-1" aria-labelledby="oliverModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-8" id="oliverModalLabel" >Usuario Oliver</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <img src="img/img2.jpg" class="mx-auto d-block" style="width: 100px; height: 100px;">
+            <div class="modal-body">
+                <p class="card-text">Número de Preguntas: 2</p>
+                <p class="card-text">Número de Respuestas: 0</p>
+                <p class="card-text">Rango: Junior</p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <!-- Modal de Jorge -->
+    <div class="modal fade" id="jorgeModal" tabindex="-1" aria-labelledby="jorgeModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-8">Usuario Jorge</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <img src="img/img1.jpg" class="mx-auto d-block" style="width: 100px; height: 100px;">
+                <div class="modal-body">
+                    <p class="card-text">Número de Preguntas: 1</p>
+                    <p class="card-text">Número de Respuestas: 0</p>
+                    <p class="card-text">Rango: Junior</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+
+
+
 
     <footer class="text-center mt-4 fixed-bottom" style="background-color: black; height: 60px;">
         <p style="color: white;">&copy; 2023 Tecnoforo Grupo 4</p>
