@@ -1,23 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Tendencias en Software y Tecnología</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+        .sombra-derecha {
+            box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .sombra-izquierda {
+            box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        
     </style>
+    
 </head>
+
 <body>
     <header class="jumbotron text-center">
         <h1 style="font-size: 65px;">Tendencias en Software y Tecnología</h1>
-        <p class="lead">Explora las últimas tendencias en el mundo del software, lenguajes de programación y tecnología.</p>
+        <p class="lead">Explora las últimas tendencias en el mundo del software, lenguajes de programación y tecnología.
+        </p>
     </header>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a style="font-size: 30px;" class="navbar-brand" href="index.html">Tecnoforo</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -28,67 +44,114 @@
                 <li class="nav-item"><a class="nav-link" href="usuarios.html">Usuarios</a></li>
             </ul>
         </div>
+        <!-- Add the search bar to the right -->
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+        </form>
     </nav>
-
-    <section id="software" class="container mt-4">
-        <h2>Tendencias en Software</h2>
-        <ul>
-            <li>Inteligencia Artificial</li>
-            <li>Computación en la nube</li>
-            <li>Realidad Aumentada y Virtual</li>
-            <li>Desarrollo de aplicaciones móviles</li>
-            <!-- Hashtags adicionales -->
-            <li><a href="#">#Seguridad</a></li>
-            <li><a href="#">#RedDoméstica</a></li>
-            <li><a href="#">#TecnologíaMédica</a></li>
-            <li><a href="#">#DesarrolloWeb</a></li>
-            <li><a href="#">#Ciberseguridad</a></li>
-            <li><a href="#">#CMS</a></li>
-            <li><a href="#">#CloudComputing</a></li>
-            <!-- Otros hashtags relevantes -->
-        </ul>
-    </section>
     
-    <section id="lenguajes" class="container mt-4">
-        <h2>Tendencias en Lenguajes de Programación</h2>
-        <ul>
-            <li>Python</li>
-            <li>JavaScript</li>
-            <li>Rust</li>
-            <li>Go</li>
-            <!-- Hashtags adicionales -->
-            <li><a href="#">#LenguajesDeProgramación</a></li>
-            <!-- Otros hashtags relevantes -->
-        </ul>
-    </section>
-    
-    <section id="tecnologia" class="container mt-4">
-        <h2>Tendencias en Tecnología</h2>
-        <ul>
-            <li>Internet de las cosas (IoT)</li>
-            <li>Blockchain</li>
-            <li>Ciberseguridad</li>
-            <li>Tecnología 5G</li>
-            <!-- Hashtags adicionales -->
-            <li><a href="#">#FrontEnd</a></li>
-            <li><a href="#">#Framework</a></li>
-            <li><a href="#">#Consejos</a></li>
-            <li><a href="#">#Tecnología</a></li>
-            <!-- Otros hashtags relevantes -->
-        </ul>
-    </section>
-    
-<!-- Espacio en blanco entre contenido y footer -->
-<div style="height: 60px;"></div>
 
-<div>.</div>
-<div>.</div>
-<div>.</div>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="sombra-derecha col-md-3">
+                <section id="software">
+                    <h2 class="mg-4">Busquedas</h2>
+                    <ul>
+                        <li>
+                            <img src="img/Kotlin_Icon.png" class="card-img-top" style="width: 8%; height: 20px;" alt="Kotlin Icon">
+                            <a href="" style="text-decoration: none; color: #004080; font-weight: bold; font-size: 16px; transition: color 0.3s;" onmouseover="this.style.color='#0056b3'" onmouseout="this.style.color='#004080'">Kotlin</a>
+                            <br>
+                            <i style="font-style: italic; font-size: 14px;">More than 1 Million searches</i>
+                        </li><br>
+                        
+                        <!-- Other programming languages -->
+                        <li>
+                            <img src="img/java.png" class="card-img-top" style="width: 8%; height: 20px;" alt="Java Icon">
+                            <a href="" style="text-decoration: none; color: #004080; font-weight: bold; font-size: 16px; transition: color 0.3s;" onmouseover="this.style.color='#0056b3'" onmouseout="this.style.color='#004080'">Java</a>
+                            <br>
+                            <i style="font-style: italic; font-size: 14px;">More than 10 Million searches</i>
+                        </li><br>
+                        
+                        <li>
+                            <img src="img/python.png" class="card-img-top" style="width: 8%; height: 20px;" alt="Python Icon">
+                            <a href="" style="text-decoration: none; color: #004080; font-weight: bold; font-size: 16px; transition: color 0.3s;" onmouseover="this.style.color='#0056b3'" onmouseout="this.style.color='#004080'">Python</a>
+                            <br>
+                            <i style="font-style: italic; font-size: 14px;">More than 50 Million searches</i>
+                        </li><br>
+                        
+                        <li>
+                            <img src="img/JavaScript_Icon.webp" class="card-img-top" style="width: 10%; height: 20px;" alt="JavaScript Icon">
+                            <a href="" style="text-decoration: none; color: #004080; font-weight: bold; font-size: 16px; transition: color 0.3s;" onmouseover="this.style.color='#0056b3'" onmouseout="this.style.color='#004080'">JavaScript</a>
+                            <br>
+                            <i style="font-style: italic; font-size: 14px;">More than 30 Million searches</i>
+                        </li><br>
+                        
+                        <li>
+                            <img src="https://static-00.iconduck.com/assets.00/c-sharp-c-icon-456x512-9sej0lrz.png" class="card-img-top" style="width: 8%; height: 20px;" alt="C# Icon">
+                            <a href="" style="text-decoration: none; color: #004080; font-weight: bold; font-size: 16px; transition: color 0.3s;" onmouseover="this.style.color='#0056b3'" onmouseout="this.style.color='#004080'">C#</a>
+                            <br>
+                            <i style="font-style: italic; font-size: 14px;">More than 5 Million searches</i>
+                        </li><br>
+                        
+                        <li>
+                            <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" class="card-img-top" style="width: 8%; height: 20px;" alt="C++ Icon">
+                            <a href="" style="text-decoration: none; color: #004080; font-weight: bold; font-size: 16px; transition: color 0.3s;" onmouseover="this.style.color='#0056b3'" onmouseout="this.style.color='#004080'">C++</a>
+                            <br>
+                            <i style="font-style: italic; font-size: 14px;">More than 8 Million searches</i>
+                        </li><br>
+                        
+                        <li>
+                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968381.png" class="card-img-top" style="width: 8%; height: 20px;" alt="TypeScript Icon">
+                            <a href="" style="text-decoration: none; color: #004080; font-weight: bold; font-size: 16px; transition: color 0.3s;" onmouseover="this.style.color='#0056b3'" onmouseout="this.style.color='#004080'">TypeScript</a>
+                            <br>
+                            <i style="font-style: italic; font-size: 14px;">More than 2 Million searches</i>
+                        </li><br>
+                        
+                        
+                    </ul>
+                </section>
+            </div>
+            <div class="col-md-6">
+                <section id="lenguajes">
+                    <h2 class="section-title">Frameworks más usados</h2>
+            
+                    <div class="framework">
+                        <img src="https://www.indianic.com/blog/wp-content/uploads/2022/10/font-end-frameworks-banner-img-1.jpg" style="width: 100%;">
+                    </div>
+                </section>
+            </div>
+            
+            <div class="sombra-izquierda col-md-3">
+                <section id="tecnologia">
+                    <h2>Tendencias en Tecnología</h2>
+                    <ul>
+                        <li>Internet de las cosas (IoT)</li>
+                        <li>Blockchain</li>
+                        <li>Ciberseguridad</li>
+                        <li>Tecnología 5G</li>
+                        <!-- Hashtags adicionales -->
+                        <li><a href="#">#FrontEnd</a></li>
+                        <li><a href="#">#Framework</a></li>
+                        <li><a href="#">#Consejos</a></li>
+                        <li><a href="#">#Tecnología</a></li>
+                        <!-- Otros hashtags relevantes -->
+                    </ul>
+                </section>
+                <div id="graficoLenguajes" class="mt-4">
+                    <canvas id="myChart" width="400" height="200"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <footer class="text-center mt-4 fixed-bottom" style="background-color: black; height: 60px;">
+    <!-- Espacio en blanco entre contenido y footer -->
+    <div style="height: 60px;"></div>
+
+    <footer class="text-center mt-4" style="background-color: black; padding: 15px;">
         <p style="color: white;">&copy; 2023 Tecnoforo Grupo 4</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
