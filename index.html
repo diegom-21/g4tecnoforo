@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Tecnoforo - Últimas Tendencias en Software y Tecnologías</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">    <link rel="stylesheet" href="styles.css">
+    <link href="css/style.css" rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
@@ -12,13 +13,43 @@
             margin-left: 10%;  /* Ajusta según sea necesario */
         }
     </style>
+
 </head>
 <body>
-    <header class="jumbotron text-center">
-        <h1 class="display-3">Bienvenido a Tecnoforo</h1>
-        <p class="lead">El lugar para estar al tanto de las últimas tendencias en software y tecnologías.</p>
-    </header>
+    <div class="container-fluid d-none d-lg-block">
+        <div class="row align-items-center bg-dark px-lg-5">
+            <div class="col-lg-9">
+                <nav class="navbar navbar-expand-sm bg-dark p-0">
+                    <ul class="navbar-nav ml-n2">
+                        <li class="nav-item border-right border-secondary">
+                            <a class="nav-link text-body small" href="#">Monday, January 1, 2023</a>
+                        </li>
+                        <li class="nav-item border-right border-secondary">
+                            <a class="nav-link text-body small" href="#">Advertise</a>
+                        </li>
+                        <li class="nav-item border-right border-secondary">
+                            <a class="nav-link text-body small" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </div>
+        <div class="row align-items-center bg-white py-3 px-lg-5">
+            <div class="col-lg-4">
+                <a href="index.html" class="navbar-brand p-0 d-none d-lg-block">
+                    <h1 class="m-0 display-4 text-uppercase text-primary">Tec<span class="text-secondary font-weight-normal">noforo</span></h1>
+                </a>
+            </div>
+            <div class="col-lg-8 text-center text-lg-right">
+                <a href="https://htmlcodex.com"><img class="img-fluid" src="img/ads-728x90.png" alt=""></a>
+            </div>
+        </div>
+    </div>
     
+    
+
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a style="font-size: 30px;" class="navbar-brand" href="index.html">Tecnoforo</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,24 +61,31 @@
                 <li class="nav-item"><a class="nav-link" href="preguntas.html">Preguntas</a></li>
                 <li class="nav-item"><a class="nav-link" href="tendencias.html">Tendencias</a></li>
                 <li class="nav-item"><a class="nav-link" href="usuarios.html">Usuarios</a></li>
-                <li class="nav-item" style="margin-left: 1200px;"><a class="nav-link" href="login.html">Iniciar Sesión</a></li>
+                <li class="nav-item" style="margin-left: 950px;"><a class="nav-link" href="login.html">Iniciar Sesión</a></li>
                 <li class="nav-item"><a class="nav-link" href="registro.html">Registrarse</a></li>
             </ul>
         </div>
     </nav>
 
+    
+
     <div class="container">
-        <div class="row mt-4">
+        <header class="jumbotron text-center">
+            <h1 class="display-3">Bienvenido a Tecnoforo</h1>
+            <p class="lead">El lugar para estar al tanto de las últimas tendencias en software y tecnologías.</p>
+        </header>
+
+        <div class="row">
             <div class="col-lg-4">
                 <img src="img/circle3.jpg" alt="" style="border-radius: 100%;" width="150" height="150">
                 <h2 class="fw-normal">Haz Preguntas</h2>
-                <p>¿Tienes dudas sobre programación, tecnología o cualquier otro tema? ¡Haz preguntas y obtén respuestas de la comunidad!</p>
+                <p>¿Tienes dudas sobre programación, tecnología o cualquier otro tema? ¡Haz preguntas y obtén respuestas de la comunidad!</p><br>
                 <p><a class="btn btn-dark" href="preguntas.html">Explorar Preguntas &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 <img src="img/circle2.jpg" alt="" style="border-radius: 100%;" width="150" height="150">
                 <h2 class="fw-normal">Descubre Tendencias</h2>
-                <p>Explora las últimas tendencias en tecnología, desarrollo web, inteligencia artificial y más. Mantente actualizado con lo más reciente.</p>
+                <p>Explora las últimas tendencias en tecnología, desarrollo web, inteligencia artificial y más. Mantente actualizado con lo más reciente.</p><br>
                 <p><a class="btn btn-dark" href="tendencias.html">Explorar Tendencias &raquo;</a></p>
             </div>
             <div class="col-lg-4">
@@ -56,12 +94,11 @@
                 <p>Conéctate con otros apasionados de la tecnología. Comparte tu experiencia, aprende de los demás y construye una red de contactos en nuestra comunidad.</p>
                 <p><a class="btn btn-dark" href="usuarios.html">Ver Perfiles &raquo;</a></p>
             </div>
-            
-        </div>
+        </div><br>
 
         <div class="row">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Kbja7KNfy8E?si=0aL20E2YXRSQuq_a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
+            <iframe width="560" height="440" src="https://www.youtube.com/embed/Kbja7KNfy8E?si=0aL20E2YXRSQuq_a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div><br>
     
     
         <!-- START THE FEATURETTES -->
@@ -76,7 +113,7 @@
             <div class="col-md-5">
                 <img src="img/set1.jpg" alt="Imagen 1" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
             </div>
-        </div>
+        </div><br>
         
         <hr class="featurette-divider">
         
@@ -88,7 +125,7 @@
             <div class="col-md-5 order-md-1">
                 <img src="img/set2.png" alt="Imagen 2" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
             </div>
-        </div>
+        </div><br>
         
         <hr class="featurette-divider">
         
@@ -100,7 +137,7 @@
             <div class="col-md-5">
                 <img src="img/set3.png" alt="Imagen 3" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
             </div>
-        </div>
+        </div><br>
         
         <hr class="featurette-divider">
     

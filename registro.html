@@ -5,16 +5,45 @@
     <title>Tecnoforo - Registrarse</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link href="css/style.css" rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
     </style>
 </head>
 <body>
-    <header class="jumbotron text-center">
-        <h1 style="font-size: 65px;">Bienvenido a Tecnoforo</h1>
-        <p class="lead">El lugar para estar al tanto de las últimas tendencias en software y tecnologías.</p>
-        
-    </header>
+    <div class="container-fluid d-none d-lg-block">
+        <div class="row align-items-center bg-dark px-lg-5">
+            <div class="col-lg-9">
+                <nav class="navbar navbar-expand-sm bg-dark p-0">
+                    <ul class="navbar-nav ml-n2">
+                        <li class="nav-item border-right border-secondary">
+                            <a class="nav-link text-body small" href="#">Monday, January 1, 2023</a>
+                        </li>
+                        <li class="nav-item border-right border-secondary">
+                            <a class="nav-link text-body small" href="#">Advertise</a>
+                        </li>
+                        <li class="nav-item border-right border-secondary">
+                            <a class="nav-link text-body small" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </div>
+        <div class="row align-items-center bg-white py-3 px-lg-5">
+            <div class="col-lg-4">
+                <a href="index.html" class="navbar-brand p-0 d-none d-lg-block">
+                    <h1 class="m-0 display-4 text-uppercase text-primary">Tec<span class="text-secondary font-weight-normal">noforo</span></h1>
+                </a>
+            </div>
+            <div class="col-lg-8 text-center text-lg-right">
+                <a href="https://htmlcodex.com"><img class="img-fluid" src="img/ads-728x90.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    
+    
+
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a style="font-size: 30px;" class="navbar-brand" href="index.html">Tecnoforo</a>
@@ -27,8 +56,8 @@
                 <li class="nav-item"><a class="nav-link" href="preguntas.html">Preguntas</a></li>
                 <li class="nav-item"><a class="nav-link" href="tendencias.html">Tendencias</a></li>
                 <li class="nav-item"><a class="nav-link" href="usuarios.html">Usuarios</a></li>
-                <li class="nav-item" style="margin-left: 1200px;"><a class="nav-link" href="login.html">Iniciar Sesión</a></li>
-                <li class="nav-item"><a class="nav-link active" href="registro.html">Registrarse</a></li>
+                <li class="nav-item" style="margin-left: 950px;"><a class="nav-link" href="login.html">Iniciar Sesión</a></li>
+                <li class="nav-item"><a class="nav-link" href="registro.html">Registrarse</a></li>
             </ul>
         </div>
     </nav>
@@ -39,21 +68,18 @@
                 <h2 class="card-title text-center" >Registrarse</h2>
                 <form>
                     <div class="form-group">
-                        <label for="nombre">Nombre</label>
+                        <label for="nombre"><strong>Nombre</strong></label>
                         <input type="text" class="form-control" id="nombre" placeholder="Nombre">
-                        <br>
                     </div>
                     <div class="form-group">
-                        <label for="correo">Correo Electrónico</label>
+                        <label for="correo"><strong>Correo Electrónico</strong></label>
                         <input type="email" class="form-control" id="correo" placeholder="Correo Electrónico">
-                        <br>
                     </div>
                     <div class="form-group">
-                        <label for="password">Contraseña</label>
+                        <label for="password"><strong>Contraseña</strong></label>
                         <input type="password" class="form-control" id="password" placeholder="Contraseña">
-                        <br>
                     </div>
-                    <a href="index.html" class="btn btn-dark">Registrarse</a>
+                    <a href="index.html" class="btn btn-dark"><Strong>Registrarse</Strong></a>
                 </form>
             </div>
         </div>

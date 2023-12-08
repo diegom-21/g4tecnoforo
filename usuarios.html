@@ -5,16 +5,44 @@
     <title>Tecnoforo - Usuarios</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link href="css/style.css" rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
     </style>
 </head>
 <body>
-    <header class="jumbotron text-center">
-        <h1 style="font-size: 65px;">Usuarios en Tecnoforo</h1>
-        <p class="lead">Descubre a otros entusiastas de la tecnología y colabora con ellos.</p>
-    </header>
+    <div class="container-fluid d-none d-lg-block">
+        <div class="row align-items-center bg-dark px-lg-5">
+            <div class="col-lg-9">
+                <nav class="navbar navbar-expand-sm bg-dark p-0">
+                    <ul class="navbar-nav ml-n2">
+                        <li class="nav-item border-right border-secondary">
+                            <a class="nav-link text-body small" href="#">Monday, January 1, 2023</a>
+                        </li>
+                        <li class="nav-item border-right border-secondary">
+                            <a class="nav-link text-body small" href="#">Advertise</a>
+                        </li>
+                        <li class="nav-item border-right border-secondary">
+                            <a class="nav-link text-body small" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </div>
+        <div class="row align-items-center bg-white py-3 px-lg-5">
+            <div class="col-lg-4">
+                <a href="index.html" class="navbar-brand p-0 d-none d-lg-block">
+                    <h1 class="m-0 display-4 text-uppercase text-primary">Tec<span class="text-secondary font-weight-normal">noforo</span></h1>
+                </a>
+            </div>
+            <div class="col-lg-8 text-center text-lg-right">
+                <a href="https://htmlcodex.com"><img class="img-fluid" src="img/ads-728x90.png" alt=""></a>
+            </div>
+        </div>
+    </div>
 
+    
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a style="font-size: 30px;" class="navbar-brand" href="index.html">Tecnoforo</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +53,7 @@
                 <li class="nav-item"><a class="nav-link" href="noticias.html">Noticias</a></li>
                 <li class="nav-item"><a class="nav-link" href="preguntas.html">Preguntas</a></li>
                 <li class="nav-item"><a class="nav-link" href="tendencias.html">Tendencias</a></li>
-                <li class="nav-item"><a class="nav-link active" href="usuarios.html">Usuarios</a></li>
+                <li class="nav-item"><a class="nav-link" href="usuarios.html">Usuarios</a></li>
             </ul>
         </div>
     </nav>
@@ -39,7 +67,7 @@
             <!-- Usuario Jorge -->
         <div class="col-md-4">
             <div class="card">
-                <img src="img/img1.jpg" class="card-img-top mx-auto d-block" style="width: 200px; height: 200px;">
+                <img src="img/img1.jpg" class="card-img-top mx-auto d-block rounded-circle" style="width: 200px; height: 200px;">
 
                 <div class="card-body">
                     <h5 class="card-title"><a href="#" style="font-weight: bold;">Jorge</a></h5>
@@ -56,7 +84,7 @@
         <!-- Usuario Pedro -->
         <div class="col-md-4">
             <div class="card">
-                <img src="img/img3.jpg" class="card-img-top mx-auto d-block" alt=""style="width: 200px; height: 200px;">
+                <img src="img/img3.jpg" class="card-img-top mx-auto d-block rounded-circle" alt="" style="width: 200px; height: 200px;">
                 <div class="card-body">
                     <h5 class="card-title"><a href="#" style="font-weight: bold;">Pedro</a></h5>
                     <p class="card-text">Número de Preguntas: 0</p>
@@ -72,7 +100,7 @@
         <!-- Usuario Marcelo -->
         <div class="col-md-4">
             <div class="card">
-                <img src="img/img7.jpg" class="card-img-top mx-auto d-block" alt=""style="width: 200px; height: 200px;">
+                <img src="img/img7.jpg" class="card-img-top mx-auto d-block rounded-circle" alt=""style="width: 200px; height: 200px;">
                 <div class="card-body">
                     <h5 class="card-title"><a href="#" style="font-weight: bold;">Marcelo</a></h5>
                     <p class="card-text">Número de Preguntas: 0</p>
@@ -88,7 +116,7 @@
         <!-- Usuario Oliver -->
         <div class="col-md-4 mt-3">
             <div class="card">
-                <img src="img/img2.jpg" class="card-img-top mx-auto d-block" alt=""style="width: 200px; height: 200px;">
+                <img src="img/img2.jpg" class="card-img-top mx-auto d-block rounded-circle" alt=""style="width: 200px; height: 200px;">
                 <div class="card-body">
                     <h5 class="card-title"><a href="#" style="font-weight: bold;">Oliver</a></h5>
                     <p class="card-text">Número de Preguntas: 2</p>
@@ -104,7 +132,7 @@
         <!-- Usuario Alexandra -->
         <div class="col-md-4 mt-3">
             <div class="card">
-                <img src="img/img9.jpg" class="card-img-top mx-auto d-block" alt=""style="width: 200px; height: 200px;">
+                <img src="img/img9.jpg" class="card-img-top mx-auto d-block rounded-circle" alt=""style="width: 200px; height: 200px;">
                 <div class="card-body">
                     <h5 class="card-title"><a href="#" style="font-weight: bold;">Alexandra</a></h5>
                     <p class="card-text">Número de Preguntas: 1</p>
@@ -120,7 +148,7 @@
         <!-- Usuario Roberto -->
         <div class="col-md-4 mt-3">
             <div class="card">
-                <img src="img/img5.jpg" class="card-img-top mx-auto d-block" alt=""style="width: 200px; height: 200px;">
+                <img src="img/img5.jpg" class="card-img-top mx-auto d-block rounded-circle" alt=""style="width: 200px; height: 200px;">
                 <div class="card-body">
                     <h5 class="card-title"><a href="#" style="font-weight: bold;">Roberto</a></h5>
                     <p class="card-text">Número de Preguntas: 1</p>
@@ -136,7 +164,7 @@
         <!-- Usuario Luisa -->
         <div class="col-md-4 mt-3">
             <div class="card">
-                <img src="img/img11.jpg" class="card-img-top mx-auto d-block" alt=""style="width: 200px; height: 200px;">
+                <img src="img/img11.jpg" class="card-img-top mx-auto d-block rounded-circle" alt=""style="width: 200px; height: 200px;">
                 <div class="card-body">
                     <h5 class="card-title"><a href="#" style="font-weight: bold;">Luisa</a></h5>
                     <p class="card-text">Número de Preguntas: 1</p>
@@ -152,7 +180,7 @@
         <!-- Usuario Camila -->
         <div class="col-md-4 mt-3">
             <div class="card">
-                <img src="img/img10.jpg" class="card-img-top mx-auto d-block" alt=""style="width: 200px; height: 200px;">
+                <img src="img/img10.jpg" class="card-img-top mx-auto d-block rounded-circle" alt=""style="width: 200px; height: 200px;">
                 <div class="card-body">
                     <h5 class="card-title"><a href="#" style="font-weight: bold;">Camila</a></h5>
                     <p class="card-text">Número de Preguntas: 1</p>
@@ -168,7 +196,7 @@
         <!-- Usuario Martín -->
         <div class="col-md-4 mt-3">
             <div class="card">
-                <img src="img/img4.jpg" class="card-img-top mx-auto d-block" alt=""style="width: 200px; height: 200px;">
+                <img src="img/img4.jpg" class="card-img-top mx-auto d-block rounded-circle" alt=""style="width: 200px; height: 200px;">
                 <div class="card-body">
                     <h5 class="card-title"><a href="#" style="font-weight: bold;">Martín</a></h5>
                     <p class="card-text">Número de Preguntas: 1</p>
@@ -184,7 +212,7 @@
         <!-- Usuario Isabel -->
         <div class="col-md-4 mt-3">
             <div class="card">
-                <img src="img/img8.jpg" class="card-img-top mx-auto d-block" alt=""style="width: 200px; height: 200px;">
+                <img src="img/img8.jpg" class="card-img-top mx-auto d-block rounded-circle" alt=""style="width: 200px; height: 200px;">
                 <div class="card-body">
                     <h5 class="card-title"><a href="#" style="font-weight: bold;">Isabel</a></h5>
                     <p class="card-text">Número de Preguntas: 1</p>
@@ -200,7 +228,7 @@
         <!-- Usuario Gabriel -->
         <div class="col-md-4 mt-3">
             <div class="card">
-                <img src="img/img6.jpg" class="card-img-top mx-auto d-block" alt=""style="width: 200px; height: 200px;">
+                <img src="img/img6.jpg" class="card-img-top mx-auto d-block rounded-circle" alt=""style="width: 200px; height: 200px;">
                 <div class="card-body">
                     <h5 class="card-title"><a href="#" style="font-weight: bold;">Gabriel</a></h5>
                     <p class="card-text">Número de Preguntas: 1</p>
